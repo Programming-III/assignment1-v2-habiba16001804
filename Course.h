@@ -4,7 +4,7 @@
 #include <string>
 #include "Student.h"
 using namespace std;
-//#wrlass Course{
+class Course{
     private:
     string courseCode;
     string courseName;
