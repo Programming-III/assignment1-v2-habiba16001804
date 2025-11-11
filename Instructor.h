@@ -3,9 +3,23 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class here
+class Instructor{
+    private:
+    string department;
+    int experienceYears;
+    public:
+    Instructor(string department, int experienceYears){
+        this.department=department;
+        this.experienceYears=experienceYears;
+    }
+    display();
+    void Instructor ::display(){
+    cout<<"department:"<<department<<"experience years:"<<experienceYears<<endl;
+    }
+};
+#endif 
 
-
+//completed instructo class
 
 
 
